@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Tones</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="/scripts/script.js"></script>
+</head>
+<body>
+<main class="container">
+
+    <div class="background-imageHome" id="bgImage"></div>
+
+    <svg viewBox="0 100 600 600" >
+        <radialGradient id="radial" fx="50%" fy="50%" cx="50%" cy="50%" r="75%">
+
+            <stop offset="0%"   stop-color="#3F51B5" stop-opacity="1"/>
+       
+            <stop offset="100%" stop-color="#CDD5E9" stop-opacity="1" />
+       
+          </radialGradient>
+        <circle class="circle"  cx="300" cy="300" r="175" fill="url(#radial)"/>
+      </svg>
+    </main>
+  
+</body>
+</html>
