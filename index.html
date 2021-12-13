@@ -13,21 +13,23 @@
 <body>
     <main class="container">
 
-        <div class="background-image"></div>
+        <svg width="60px" height="60px" class="musicNote" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#8D74B1"><path fill="#8D74B1" d="M13 4h4v4h-4v9c0 1-.6 3-3 3s-3-2-3-3 .6-3 3-3 3 2 3 3V4z"/><path stroke="#8D74B1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17V8m0 9c0 1-.6 3-3 3s-3-2-3-3 .6-3 3-3 3 2 3 3zm0-9V4h4v4h-4z"/></svg>
+
+        <div class="background-image" id="bgImage"></div>
 
         <h1>The Game of Tones</h1>
 
         <p class="para">Creative Music making</p>
 
-        <h2><span>Aqcuire</span> the <span>tools</span> to <span>discover</span><br> and <span>express</span> your
+        <h2 id="uspText"><span>Aqcuire</span> the <span>tools</span> to <span>discover</span><br> and <span>express</span> your
             <span>own musical style</span></h2>
 
         <div class="radioButtons">
-            <input type="button">
-            <input type="button">
-            <input type="button">
+            <input id="usp1" type="radio" name="usp">
+            <input id="usp2" type="radio" name="usp">
+            <input id="usp3" type="radio" name="usp">
         </div>
-        <button id="button">SKIP</button>
+        <a id="button" href="/home.html">SKIP</a>
     </main>
 
 </body>
