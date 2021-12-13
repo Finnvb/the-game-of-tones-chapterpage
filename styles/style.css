@@ -198,4 +198,6 @@ p {
 .circle{
     fill: linear-gradient(#3F51B5, #CDD5E9);
     animation: bounce 3s infinite linear;
+
+   
 }
