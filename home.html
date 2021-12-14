@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game of Tones</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="/scripts/script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game of Tones</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="/scripts/script.js"></script>
 </head>
+
 <body>
-<main class="container">
+  <main class="container">
 
     <div class="background-imageHome" id="bgImage"></div>
 
-    
-    <svg viewBox="0 100 600 600" >
-     <g>
+    <svg viewBox="125 50 350 450 ">
+      <g>
         <radialGradient id="radial" fx="80%" fy="80%" cx="90%" cy="90%" r="75%">
 
-            <stop offset="0%"   stop-color="#3F51B5" stop-opacity="1"/>
-       
-            <stop offset="100%" stop-color="#CDD5E9" stop-opacity="1" />
-       
-          </radialGradient>
-        
-        <circle class="circle"  cx="300" cy="300" r="175" fill="url(#radial)"/>
-        <text class="circle" x="250" y="250"  font-size="22" fill="#355275">VOLUME 1</text>
-        <text class="circle" x="210" y="285"  font-size="22" fill="#355375">Making melodies</text>
-        <text class="circle" x="220" y="355"  font-size="16" fill="#555555">The Game of Tones</text>
+          <stop offset="0%" stop-color="#3F51B5" stop-opacity="1" />
+
+          <stop offset="100%" stop-color="#CDD5E9" stop-opacity="1" />
+
+        </radialGradient>
+
+        <circle class="circle" cx="300" cy="300" r="175" fill="url(#radial)" />
+        <text class="circle" x="250" y="250" font-size="22" fill="#355275">VOLUME 1</text>
+        <text class="circle" x="210" y="285" font-size="22" fill="#355375">Making melodies</text>
+        <text class="circle" x="220" y="355" font-size="16" fill="#555555">The Game of Tones</text>
       </g>
-      </svg>
-    
-    </main>
-  
+    </svg>
+
+
+
+
+
+    <svg viewBox="0 0 100 100">
+      <g>
+        <g>
+          <line x1="10" y1="20" x2="90" y2="20" stroke="white" stroke-width="1.5" />
+          <a xlink:href="#">
+            <circle class="chapterCircle" cx="10" cy="20" r="8" cursor="pointer" />
+        </g>
+        <g>
+          <text class="chapterCircleText" x="6" y="21" font-size="4px" cursor="pointer">Intro</text>
+          <a xlink:href="/index.html" target="_blank">
+            <circle class="chapterCircle" cx="35" cy="20" r="8" fill="#e2e2e2" cursor="pointer" />
+            <text class="chapterCircleText" x="34" y="22" font-size="5px" fill="black">1</text>
+        </g>
+        <circle class="chapterCircleInactive" cx="60" cy="20" r="8" fill="#e2e2e2"  />
+        <text x="58" y="22" font-size="5px" fill="black">2</text>
+        <circle class="chapterCircleInactive" cx="85" cy="20" r="8" fill="#e2e2e2"  />
+        <text x="83" y="22" font-size="5px" fill="black">3</text>
+        <text x="35" y="42" font-size="7px" fill="white">Chapters</text>
+      </g>
+    </svg>
+
+
+  </main>
+
 </body>
+
 </html>
