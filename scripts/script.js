@@ -8,6 +8,7 @@ usp1.addEventListener("click", changeText);
 usp2.addEventListener("click", changeText);
 usp3.addEventListener("click", changeText);
 
+
 function changeText(event) {
 
     console.log(event.target.id);

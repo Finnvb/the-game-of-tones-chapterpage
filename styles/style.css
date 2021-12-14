@@ -30,7 +30,6 @@ h1 {
 h2 {
     Font-size: 24px;
     font-weight: 100;
-    color: darkslategray;
     text-align: center;
 
 
@@ -168,6 +167,7 @@ p {
 #uspText {
 
     height: 100px;
+    color: darkslategray;
 
 }
 
@@ -200,4 +200,22 @@ p {
     animation: bounce 3s infinite linear;
 
    
+}
+
+.chapterCircle{
+    fill:#e2e2e2;
+    transition: 0.8s;
+}
+
+.chapterCircle:hover{
+fill: #8D74B1;
+}
+
+.chapterCircleText:hover{   
+    fill: #8D74B1;
+
+}
+
+.chapterCircleInactive{
+   fill: #bbbbbb ;
 }
