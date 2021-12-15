@@ -128,7 +128,6 @@ p {
     height: 100%;
     position: absolute;
     z-index: -1;
-
 }
 
 
@@ -136,7 +135,6 @@ p {
     font-size: 21px;
     color: #555555;
     margin-bottom: 80px;
-
 }
 
 .container {
@@ -145,7 +143,6 @@ p {
     align-items: center;
     justify-content: center;
     height: 100vh;
-
 }
 
 .radioButtons {
@@ -161,7 +158,6 @@ p {
     height: 15px;
     width: 15px;
     transition: 0.5s;
-
 }
 
 #uspText {
@@ -195,27 +191,163 @@ p {
 
 /* Home Scherm */
 
-.circle{
+.circle {
     fill: linear-gradient(#3F51B5, #CDD5E9);
     animation: bounce 3s infinite linear;
 
-   
 }
 
-.chapterCircle{
-    fill:#e2e2e2;
+.chapterCircle {
+    fill: #e2e2e2;
     transition: 0.8s;
 }
 
-.chapterCircle:hover{
-fill: #8D74B1;
+.chapterCircle:hover {
+    fill: #8D74B1;
 }
 
-.chapterCircleText:hover{   
+.chapterCircleText:hover {
     fill: #8D74B1;
 
 }
 
-.chapterCircleInactive{
-   fill: #bbbbbb ;
+.chapterCircleInactive {
+    fill: #bbbbbb;
+}
+
+
+/* intro scherm */
+
+.background-imageIntro {
+    background: url("/assets/background.png"), linear-gradient(#FFFFFF, #FFFFFF);
+    background-repeat: no-repeat;
+    opacity: 60%;
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.sideBar {
+    min-width: 3em;
+    width: 4em;
+    height: 100vh;
+    background-color: #3F51B5;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sideBar p {
+
+    position: relative;
+    top: -20px;
+    color: #FFFFFF;
+
+
+}
+
+.sideBarItem {
+    margin-top: 0.5em;
+    color: #FFFFFF;
+    font-size: 22px;
+    transition: 0.5s;
+    justify-self: start;
+
+}
+
+.sideBarItem1 {
+    padding: 0.5em 1em 0.5em 1em;
+    margin-top: 25vh;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    color: #FFFFFF;
+    font-size: 22px;
+
+}
+
+.sideBar img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+.topBar {
+
+    min-height: 3em;
+    height: 4em;
+    width: 100vw;
+    background-color: #CDD5E9;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: -1;
+}
+
+.circleIcon {
+    width: 3em;
+    height: 3em;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0.5em 1em 0.5em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.circleIcon img {
+    width: 50%;
+    height: 50%;
+
+
+}
+
+hr {
+    height: 3em;
+    rotate: 180deg;
+    border: 1px solid white;
+}
+
+.chapterHeader {
+    /* margin-left: 15vw; */
+    /* margin-top: 20vh; */
+    /* position: absolute; */
+    Font-size: 3em;
+    font-weight: 100;
+    color: #3F51B5;
+    line-height: 40px;
+}
+
+
+.continueContainer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 3em;
+    font-size: 1em;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.continueContainer:hover{
+
+    transform: scale(1.1);
+}
+
+
+.main{
+
+    padding: 6em;
+    
+    /* background-color: cadetblue; */
 }
