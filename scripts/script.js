@@ -27,3 +27,4 @@ function changeText(event) {
         backgroundImage.setAttribute("class", "background-image2");
     }
 }
+
