@@ -189,7 +189,7 @@ p {
     transform: scale(1.1);
 }
 
-/* Home Scherm */
+/* ---------------- Home Scherm ---------------------- */
 
 .circle {
     fill: linear-gradient(#3F51B5, #CDD5E9);
@@ -216,7 +216,7 @@ p {
 }
 
 
-/* intro scherm */
+/* --------------- intro scherm -------------------- */
 
 .background-imageIntro {
     background: url("/assets/background.png"), linear-gradient(#FFFFFF, #FFFFFF);
@@ -318,9 +318,7 @@ hr {
 }
 
 .chapterHeader {
-    /* margin-left: 15vw; */
-    /* margin-top: 20vh; */
-    /* position: absolute; */
+
     Font-size: 3em;
     font-weight: 100;
     color: #3F51B5;
@@ -339,15 +337,31 @@ hr {
     transition: 0.5s;
 }
 
-.continueContainer:hover{
+.continueContainer:hover {
 
     transform: scale(1.1);
 }
 
 
-.main{
+.main {
 
-    padding: 6em;
-    
+    padding: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     /* background-color: cadetblue; */
 }
+
+
+/*------------------- Chapter 1 scherm -------------------- */
+
+.subsubchapterCircle {
+    width: 100px;
+    height: 100%;
+}
+
+.subchapterCircle {
+    width: 50px;
+    height: 100%;
+}
+
