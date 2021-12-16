@@ -358,10 +358,51 @@ hr {
 .subsubchapterCircle {
     width: 100px;
     height: 100%;
+    display: none;
 }
 
 .subchapterCircle {
     width: 50px;
     height: 100%;
+    /* display: none; */
 }
 
+#lampje {
+    transition: 0.5s;
+
+}
+
+#lampje:hover {
+    cursor: pointer;
+    transform: translateY(-20px) translateX(-10px) scale(1.1);
+}
+
+#tandwielen {
+    transition: 0.5s;
+
+}
+
+#tandwielen:hover {
+    cursor: pointer;
+    transform: translateY(-20px) scale(1.1);
+}
+
+#mindset {
+    transition: 0.5s;
+
+}
+
+#mindset:hover {
+    cursor: pointer;
+    transform: translateY(-20px) translateX(-5px) scale(1.1);
+}
+
+#potlood_icoon {
+    transition: 0.5s;
+
+}
+
+#potlood_icoon:hover {
+    cursor: pointer;
+    transform: translateY(-30px) translateX(-10px) scale(1.1);
+}
