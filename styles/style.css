@@ -35,6 +35,9 @@ h2 {
 
 }
 
+a {
+    color: inherit;
+}
 span {
     font-weight: bold;
     font-size: 25px;
@@ -355,16 +358,31 @@ hr {
 
 /*------------------- Chapter 1 scherm -------------------- */
 
+.subchapterCircle {
+    width: 50px;
+    height: 100%;
+    /* display: none; */
+}
 .subsubchapterCircle {
     width: 100px;
     height: 100%;
     display: none;
 }
 
-.subchapterCircle {
-    width: 50px;
+#chapterCircleText{
+    color: #3F51B5;
+}
+
+.subsubchapterCircle1_2{
+    width: 100px;
     height: 100%;
-    /* display: none; */
+    display: none;
+}
+
+.subsubchapterCircle1_3{
+    width: 100px;
+    height: 100%;
+    display:none;
 }
 
 #lampje {
@@ -374,7 +392,7 @@ hr {
 
 #lampje:hover {
     cursor: pointer;
-    transform: translateY(-20px) translateX(-10px) scale(1.1);
+    transform: translateY(-17px) translateX(-10px) scale(1.1);
 }
 
 #tandwielen {
@@ -384,8 +402,9 @@ hr {
 
 #tandwielen:hover {
     cursor: pointer;
-    transform: translateY(-20px) scale(1.1);
+    transform: translateY(-20px) translateX(-5px) scale(1.1);
 }
+
 
 #mindset {
     transition: 0.5s;
@@ -394,7 +413,7 @@ hr {
 
 #mindset:hover {
     cursor: pointer;
-    transform: translateY(-20px) translateX(-5px) scale(1.1);
+    transform: translateY(-30px) translateX(-5px) scale(1.1);
 }
 
 #potlood_icoon {
@@ -406,3 +425,40 @@ hr {
     cursor: pointer;
     transform: translateY(-30px) translateX(-10px) scale(1.1);
 }
+
+
+#groene_outline{
+    display: none;
+}
+
+#oranje_outline{
+    display: none;
+}
+
+#blauwe_outline{
+    display: none;
+}
+#gele_outline{
+    display: none;
+}
+
+
+
+#cirkel_3{
+    cursor: pointer;
+}
+
+#cirkel_4{
+    cursor: pointer;
+}
+
+#cirkel_2{
+    cursor: pointer;
+}
+
+
+
+#cirkel_1{
+    cursor:pointer;
+}
+
