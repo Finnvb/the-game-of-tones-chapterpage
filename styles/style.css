@@ -374,7 +374,7 @@ hr {
 
 #lampje:hover {
     cursor: pointer;
-    transform: translateY(-20px) translateX(-10px) scale(1.1);
+    transform: translateY(-17px) translateX(-10px) scale(1.1);
 }
 
 #tandwielen {
@@ -384,7 +384,7 @@ hr {
 
 #tandwielen:hover {
     cursor: pointer;
-    transform: translateY(-20px) scale(1.1);
+    transform: translateY(-20px) translateX(-5px) scale(1.1);
 }
 
 #mindset {
@@ -394,7 +394,7 @@ hr {
 
 #mindset:hover {
     cursor: pointer;
-    transform: translateY(-20px) translateX(-5px) scale(1.1);
+    transform: translateY(-30px) translateX(-5px) scale(1.1);
 }
 
 #potlood_icoon {
@@ -406,3 +406,4 @@ hr {
     cursor: pointer;
     transform: translateY(-30px) translateX(-10px) scale(1.1);
 }
+
