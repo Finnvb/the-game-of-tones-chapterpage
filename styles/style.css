@@ -38,6 +38,7 @@ h2 {
 a {
     color: inherit;
 }
+
 span {
     font-weight: bold;
     font-size: 25px;
@@ -363,29 +364,32 @@ hr {
     height: 100%;
     /* display: none; */
 }
+
 .subsubchapterCircle {
     width: 100px;
     height: 100%;
     display: none;
 }
 
-#chapterCircleText{
+#chapterCircleText {
     color: #3F51B5;
 }
 
-.subsubchapterCircle1_2{
+.subsubchapterCircle1_2 {
     width: 100px;
     height: 100%;
     display: none;
 }
 
-.subsubchapterCircle1_3{
+.subsubchapterCircle1_3 {
     width: 100px;
     height: 100%;
-    display:none;
+    display: none;
 }
 
-#lampje {
+#lampje,
+#lampje2,
+#lampje3 {
     transition: 0.5s;
 
 }
@@ -395,7 +399,19 @@ hr {
     transform: translateY(-17px) translateX(-10px) scale(1.1);
 }
 
-#tandwielen {
+#lampje2:hover {
+    cursor: pointer;
+    transform: translateY(-30px) translateX(-10px) scale(1.1);
+}
+
+#lampje3:hover {
+    cursor: pointer;
+    transform: translateY(-40px) translateX(-10px) scale(1.1);
+}
+
+#tandwielen,
+#tandwielen2,
+#tandwielen3 {
     transition: 0.5s;
 
 }
@@ -405,8 +421,20 @@ hr {
     transform: translateY(-20px) translateX(-5px) scale(1.1);
 }
 
+#tandwielen2:hover {
+    cursor: pointer;
+    transform: translateY(-32px) translateX(-5px) scale(1.1);
+}
 
-#mindset {
+#tandwielen3:hover {
+    cursor: pointer;
+    transform: translateY(-44px) translateX(-5px) scale(1.1);
+}
+
+
+#mindset,
+#mindset2,
+#mindset3 {
     transition: 0.5s;
 
 }
@@ -416,7 +444,20 @@ hr {
     transform: translateY(-30px) translateX(-5px) scale(1.1);
 }
 
-#potlood_icoon {
+#mindset2:hover {
+    cursor: pointer;
+    transform: translateY(-42px) translateX(-5px) scale(1.1);
+}
+
+#mindset3:hover {
+    cursor: pointer;
+    transform: translateY(-52px) translateX(-5px) scale(1.1);
+}
+
+
+#potlood_icoon,
+#potlood_icoon2,
+#potlood_icoon3 {
     transition: 0.5s;
 
 }
@@ -426,39 +467,54 @@ hr {
     transform: translateY(-30px) translateX(-10px) scale(1.1);
 }
 
-
-#groene_outline{
-    display: none;
+#potlood_icoon2:hover {
+    cursor: pointer;
+    transform: translateY(-42px) translateX(-10px) scale(1.1);
 }
 
-#oranje_outline{
-    display: none;
-}
-
-#blauwe_outline{
-    display: none;
-}
-#gele_outline{
-    display: none;
+#potlood_icoon3:hover {
+    cursor: pointer;
+    transform: translateY(-55px) translateX(-10px) scale(1.1);
 }
 
 
+#groene_outline {
+    display: none;
+}
 
-#cirkel_3{
+#oranje_outline {
+    display: none;
+}
+
+#blauwe_outline {
+    display: none;
+}
+
+#gele_outline {
+    display: none;
+}
+
+
+
+#cirkel_1,
+#cirkel_2,
+#cirkel_3,
+#cirkel_4 {
     cursor: pointer;
 }
 
-#cirkel_4{
+
+
+#circle1,
+#circle2,
+#circle3 {
     cursor: pointer;
 }
 
-#cirkel_2{
+#circle3_1,
+#circle3_2,
+#circle3_3,
+#circle3_4,
+#circle3_5 {
     cursor: pointer;
 }
-
-
-
-#cirkel_1{
-    cursor:pointer;
-}
-
