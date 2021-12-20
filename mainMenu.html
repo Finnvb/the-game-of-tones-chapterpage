@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Tones</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="/scripts/script.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+
+        <div class="background-imageHome" id="bgImage"></div>
+
+        <svg viewBox="110 50 370 450 ">
+            <g>
+                <defs>
+                    <radialGradient id="radial" fx="80%" fy="80%" cx="90%" cy="90%" r="75%">
+
+                        <stop offset="0%" stop-color="#3F51B5" stop-opacity="1" />
+
+                        <stop offset="100%" stop-color="#CDD5E9" stop-opacity="1" />
+
+                    </radialGradient>
+
+                    <linearGradient id="Rainbow" x1="0" y1="0" x2="1" y2="1">
+
+                        <stop offset="40%" stop-color="#54BA54" stop-opacity="1" />
+
+                        <stop offset="100%" stop-color="#FF9400" stop-opacity="1" />
+                    </linearGradient>
+                </defs>
+                <circle cx="300" cy="300" r="175" fill="url(#radial)" stroke="url(#Rainbow)" stroke-width="6"
+                    box-sizing="border-box" />
+
+                <circle class="chapterCircle" cx="250" cy="200" r="28" cursor="pointer" />
+                <text class="chapterCircleText" x="250" y="205" font-size="14px" cursor="pointer"
+                    text-anchor="middle">Intro</text>
+
+                <text class="chapter2Text" x="200" y="280" font-size="14px" text-anchor="middle">Chapter 2 </text>
+                <text class="chapter2Text" x="200" y="300" font-size="14px" text-anchor="middle">Tonality</text>
+
+
+                <circle class="chapterCircleLocked" cx="350" cy="220" r="28" cursor="auto" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" x="340" y="210" viewBox="0 0 24 24">
+                    <path data-name="lock (1)"
+                        d="M 16.4 8.9 H 15.8 V 6.2 A 5.4 5.4 90 0 0 10.3 0.9 A 5.5 5.5 90 0 0 4.7 6.3 V 9 H 4 A 2.1 2.1 90 0 0 1.9 11.1 L 1.9 20.4 A 2.1 2.1 90 0 0 4 22.5 L 16.4 22.5 A 2.1 2.1 90 0 0 18.5 20.4 L 18.5 11 A 2.1 2.1 90 0 0 16.4 8.9 Z M 6.6 6.3 A 3.6 3.6 90 0 1 10.3 2.7 A 3.6 3.6 90 0 1 14 6.3 V 9 L 6.6 9 Z M 6.6 6.3"
+                        fill="#ABAFBA" /></svg>
+
+                <circle class="chapterCircleLocked" cx="410" cy="310" r="28" cursor="auto" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" x="400" y="300" viewBox="0 0 24 24">
+                    <path data-name="lock (1)"
+                        d="M 16.4 8.9 H 15.8 V 6.2 A 5.4 5.4 90 0 0 10.3 0.9 A 5.5 5.5 90 0 0 4.7 6.3 V 9 H 4 A 2.1 2.1 90 0 0 1.9 11.1 L 1.9 20.4 A 2.1 2.1 90 0 0 4 22.5 L 16.4 22.5 A 2.1 2.1 90 0 0 18.5 20.4 L 18.5 11 A 2.1 2.1 90 0 0 16.4 8.9 Z M 6.6 6.3 A 3.6 3.6 90 0 1 10.3 2.7 A 3.6 3.6 90 0 1 14 6.3 V 9 L 6.6 9 Z M 6.6 6.3"
+                        fill="#ABAFBA" /></svg>
+
+
+                <circle class="chapterCircleLocked" cx="350" cy="400" r="28" cursor="auto" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" x="340" y="390" viewBox="0 0 24 24">
+                    <path data-name="lock (1)"
+                        d="M 16.4 8.9 H 15.8 V 6.2 A 5.4 5.4 90 0 0 10.3 0.9 A 5.5 5.5 90 0 0 4.7 6.3 V 9 H 4 A 2.1 2.1 90 0 0 1.9 11.1 L 1.9 20.4 A 2.1 2.1 90 0 0 4 22.5 L 16.4 22.5 A 2.1 2.1 90 0 0 18.5 20.4 L 18.5 11 A 2.1 2.1 90 0 0 16.4 8.9 Z M 6.6 6.3 A 3.6 3.6 90 0 1 10.3 2.7 A 3.6 3.6 90 0 1 14 6.3 V 9 L 6.6 9 Z M 6.6 6.3"
+                        fill="#ABAFBA" /></svg>
+
+                <circle class="chapterCircleLocked" cx="250" cy="380" r="28" cursor="auto" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" x="240" y="370" viewBox="0 0 24 24">
+                    <path data-name="lock (1)"
+                        d="M 16.4 8.9 H 15.8 V 6.2 A 5.4 5.4 90 0 0 10.3 0.9 A 5.5 5.5 90 0 0 4.7 6.3 V 9 H 4 A 2.1 2.1 90 0 0 1.9 11.1 L 1.9 20.4 A 2.1 2.1 90 0 0 4 22.5 L 16.4 22.5 A 2.1 2.1 90 0 0 18.5 20.4 L 18.5 11 A 2.1 2.1 90 0 0 16.4 8.9 Z M 6.6 6.3 A 3.6 3.6 90 0 1 10.3 2.7 A 3.6 3.6 90 0 1 14 6.3 V 9 L 6.6 9 Z M 6.6 6.3"
+                        fill="#ABAFBA" /></svg>
+
+            </g>
+
+
+
+
+        </svg>
+
+
+
+        <svg viewBox="0 0 100 100">
+            <g>
+
+                <line x1="10" y1="20" x2="90" y2="20" stroke="white" stroke-width="1.5" />
+                <g>
+                    <a xlink:href="/intro.html">
+
+                        <circle class="chapterCircle" cx="10" cy="20" r="8" cursor="pointer" />
+                        <text class="chapterCircleText" x="6" y="21" font-size="4px" cursor="pointer">Intro</text>
+
+                </g>
+                <g>
+
+                    <a xlink:href="/chapter1.html">
+                        <circle class="chapterCircle" cx="35" cy="20" r="8" fill="#e2e2e2" cursor="pointer" />
+                        <text class="chapterCircleText" x="34" y="22" font-size="5px" fill="black">1</text>
+                </g>
+                <a xlink:href="#">
+                    <circle class="chapter2Circle" cx="60" cy="20" r="8" fill="#e2e2e2" stroke="url(#Rainbow)"
+                        stroke-width="1" />
+                    <text class="chapter2CircleText" x="58" y="22" font-size="5px" fill="black">2</text>
+                    <circle class="chapterCircleInactive" cx="85" cy="20" r="8" fill="#e2e2e2" />
+                    <text class="chapterCircleTextInactive" x="83" y="22" font-size="5px" fill="black">3</text>
+
+            </g>
+
+
+
+        </svg>
+
+
+
+
+
+
+
+
+
+    </main>
+
+</body>
+
+</html>

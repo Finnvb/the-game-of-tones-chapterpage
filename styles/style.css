@@ -167,7 +167,7 @@ p {
 #uspText {
 
     height: 100px;
-    color: darkslategray;
+    color: #555555;
 
 }
 
@@ -204,6 +204,7 @@ p {
 .chapterCircle {
     fill: #e2e2e2;
     transition: 0.8s;
+
 }
 
 .chapterCircle:hover {
@@ -217,6 +218,7 @@ p {
 
 .chapterCircleInactive {
     fill: #bbbbbb;
+    cursor: auto;
 }
 
 
@@ -371,8 +373,8 @@ hr {
     display: none;
 }
 
-#chapterCircleText {
-    color: #3F51B5;
+.chapterCircleText {
+    fill: #355275;
 }
 
 .subsubchapterCircle1_2 {
@@ -517,4 +519,54 @@ hr {
 #circle3_4,
 #circle3_5 {
     cursor: pointer;
+}
+
+
+
+
+
+/*------------------- Main Menu scherm-------------------- */
+
+.gradientBG {
+    position: absolute;
+    z-index: -1;
+    height: 345px;
+    width: 345px;
+
+    opacity: 75%;
+
+}
+
+.gradientBGChapter {
+    position: absolute;
+    z-index: -1;
+    height: 60px;
+    width: 60px;
+    top: 450px;
+    margin-right: 97px;
+    opacity: 75%;
+
+}
+
+.chapterCircleTextInactive{
+    fill:#355275;
+    cursor: auto;
+  
+}
+
+.chapterCircleLocked{
+    fill: #e2e2e2;
+    transition: 0.8s;
+}
+
+.chapter2Text{
+    fill: #355275;
+}
+
+.chapter2Circle{
+    fill: #8D74B1;
+}
+
+.chapter2CircleText{
+    fill: #FFFFFF;
 }
