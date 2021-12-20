@@ -17,8 +17,6 @@ let potloodIcoon = document.getElementById("potlood_icoon");
 let goToIntro = document.getElementById("cirkel_1");
 let goToChapter1_1 = document.getElementById("cirkel_2");
 let goToChapter1_2 = document.getElementById("cirkel_3");
-// let goToChapter1_3 = document.getElementById("cirkel_4");
-// let goToChapter1_4 = document.getElementById("cirkel_5");
 
 
 
@@ -29,12 +27,11 @@ let topBar = document.getElementById("topBar");
 let sideBar = document.getElementById("sideBar");
 let chapterCircleText = document.getElementById("chapterCircleText");
 
-// let path_302 = document.getElementById("Path_302");
 
-
-
-
-
+let path_302 = document.getElementById("Path_302"); //geel
+let path_303 = document.getElementById("Path_303"); //blauw
+let path_301 = document.getElementById("Path_301"); //groen
+let path_300 = document.getElementById("Path_300"); //oranje
 
 
 goToIntro.addEventListener("click", chapterIntro);
@@ -53,6 +50,8 @@ function chapterIntro() {
     sideBar.style.backgroundColor = "#3F51B5";
     sideBar.style.backgroundColor = "#3F51B5";
     topBar.style.backgroundColor = '#CDD5E9';
+
+
 }
 
 
@@ -79,6 +78,9 @@ function openChapter1_1() {
     oranjeOutline.style.display = 'none';
     chapterCircleText.style.fill = '#3F51B5';
 
+    path_303.classList.add("cls-10");
+    path_303.classList.remove("cls-8", "cls-9", "cls-1");
+
 }
 
 
@@ -98,6 +100,11 @@ function chapter1_1_2() {
     oranjeOutline.style.display = 'none';
     chapterCircleText.style.fill = '#54BA54';
 
+    path_303.classList.add("cls-8");
+    path_303.classList.remove("cls-10", "cls-9", "cls-1");
+
+    path_301.classList.add("cls-8");
+    path_301.classList.remove("cls-10", "cls-9", "cls-1");
 
 }
 
@@ -119,6 +126,14 @@ function chapter1_1_3() {
     oranjeOutline.style.display = 'none';
     chapterCircleText.style.fill = '#E7EF37';
 
+    path_303.classList.add("cls-9");
+    path_303.classList.remove("cls-10");
+
+    path_301.classList.add("cls-9");
+    path_301.classList.remove("cls-8");
+
+    path_302.classList.add("cls-9");
+    path_302.classList.remove("cls-1");
 }
 
 potloodIcoon.addEventListener("click", chapter1_1_4);
@@ -136,8 +151,20 @@ function chapter1_1_4() {
     sideBar.style.backgroundColor = "#FF9400";
     topBar.style.backgroundColor = '#F9DDB3';
     chapterCircleText.style.fill = '#FF9400';
-    // path_302.classList.add("cls-1");
-    // path_302.classList.remove("cls-9");
+
+
+    path_303.classList.add("cls-1");
+    path_303.classList.remove("cls-10", "cls-9", "cls-8");
+
+    path_301.classList.add("cls-1");
+    path_301.classList.remove("cls-8", "cls-9", "cls-8");
+
+    path_302.classList.add("cls-1");
+    path_302.classList.remove("cls-9", "cls-9", "cls-8");
+
+
+    path_300.classList.add("cls-1");
+    path_300.classList.remove("cls-9");
 
 }
 
@@ -175,10 +202,12 @@ let goToChapter1_3 = document.getElementById("circle3");
 goBackToChapter1_1.addEventListener("click", openChapter1_1);
 goBackToIntro.addEventListener("click", chapterIntro);
 
+// --------------------------------------------------------------------------------------------------
 
-
-
-
+let blauw = document.getElementsByClassName("blauw"); //blauw
+let geel = document.getElementsByClassName("geel"); //geel
+let groen = document.getElementsByClassName("groen"); //groen
+let oranje = document.getElementsByClassName("oranje"); //oranje
 
 
 
@@ -204,6 +233,7 @@ function openChapter2_1() {
     oranjeOutline2.style.display = 'none';
     chapterCircleText2.style.fill = '#3F51B5';
 
+    blauw[0].style.fill = '#5667c3';
 }
 
 tandwielen2.addEventListener("click", chapter2_1_2);
@@ -222,6 +252,8 @@ function chapter2_1_2() {
     oranjeOutline2.style.display = 'none';
     chapterCircleText2.style.fill = '#54BA54';
 
+    blauw[0].style.fill = '#62cc62';
+    groen[0].style.fill = '#62cc62';
 
 }
 
@@ -245,6 +277,10 @@ function chapter2_1_3() {
     oranjeOutline2.style.display = 'none';
     chapterCircleText2.style.fill = '#E7EF37';
 
+    blauw[0].style.fill = '#edf465';
+    geel[0].style.fill = '#edf465';
+    groen[0].style.fill = '#edf465';
+
 }
 
 potloodIcoon2.addEventListener("click", chapter2_1_4);
@@ -263,10 +299,12 @@ function chapter2_1_4() {
     topBar.style.backgroundColor = '#F9DDB3';
     chapterCircleText2.style.fill = '#FF9400';
 
+    geel[0].style.fill = '#ff9400';
+    oranje[0].style.fill = '#ff9400';
+    groen[0].style.fill = '#ff9400';
+    blauw[0].style.fill = '#ff9400';
+
 }
-
-
-
 
 
 
@@ -275,11 +313,7 @@ function chapter2_1_4() {
 // -------------------------------------
 
 
-
-
-
-
-
+let nextChapterLink = document.getElementById("nextChapterLink");
 
 let nextChapter = document.getElementById("nextChapter");
 let lockClosed = document.getElementById("lockClosed");
@@ -316,9 +350,6 @@ lampje3.addEventListener("click", openChapter3_1);
 
 
 
-
-
-
 function openChapter3_1() {
     subsubchapterCircle.style.display = 'none';
     subchapterCircle.style.display = 'none';
@@ -338,6 +369,8 @@ function openChapter3_1() {
     chapterCircleText3.style.fill = '#3F51B5';
     lockOpen.style.display = 'none';
     lockClosed.style.display = 'block';
+
+    blauw[1].style.fill = '#5667c3';
 
 }
 
@@ -360,6 +393,8 @@ function chapter3_1_2() {
     lockOpen.style.display = 'none';
     lockClosed.style.display = 'block';
 
+    blauw[1].style.fill = '#62cc62';
+    groen[1].style.fill = '#62cc62';
 
 }
 
@@ -385,6 +420,9 @@ function chapter3_1_3() {
     lockOpen.style.display = 'none';
     lockClosed.style.display = 'block';
 
+    blauw[1].style.fill = '#edf465';
+    geel[1].style.fill = '#edf465';
+    groen[1].style.fill = '#edf465';
 
 }
 
@@ -406,6 +444,11 @@ function chapter3_1_4() {
     lockOpen.style.display = 'block';
     lockClosed.style.display = 'none';
 
+    geel[1].style.fill = '#ff9400';
+    oranje[1].style.fill = '#ff9400';
+    groen[1].style.fill = '#ff9400';
+    blauw[1].style.fill = '#ff9400';
+
 }
 
 
@@ -424,5 +467,6 @@ function chapter1Complete() {
     topBar.style.backgroundColor = '#CDD5E9';
     lockOpen.style.display = 'block';
     lockClosed.style.display = 'none';
-    nextChapter.innerHTML = '<p>NEXT CHAPTER</p>';
+    nextChapter.innerHTML = '<p>Next Chapter</p>';
+    nextChapterLink.href = '/mainMenu.html';
 }
