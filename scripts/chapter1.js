@@ -52,6 +52,10 @@ function chapterIntro() {
     topBar.style.backgroundColor = '#CDD5E9';
 
 
+    //  continueArray[i] = continueArray[0];
+    //    console.log(continueArray[i]);
+
+
 }
 
 
@@ -81,6 +85,9 @@ function openChapter1_1() {
     path_303.classList.add("cls-10");
     path_303.classList.remove("cls-8", "cls-9", "cls-1");
 
+    //  continueArray[i] = continueArray[1];
+
+    // console.log(continueArray[i]);
 }
 
 
@@ -105,6 +112,8 @@ function chapter1_1_2() {
 
     path_301.classList.add("cls-8");
     path_301.classList.remove("cls-10", "cls-9", "cls-1");
+
+    // continueArray[i] = continueArray[2];
 
 }
 
@@ -134,6 +143,8 @@ function chapter1_1_3() {
 
     path_302.classList.add("cls-9");
     path_302.classList.remove("cls-1");
+
+    //    continueArray[i] = continueArray[3];
 }
 
 potloodIcoon.addEventListener("click", chapter1_1_4);
@@ -166,17 +177,14 @@ function chapter1_1_4() {
     path_300.classList.add("cls-1");
     path_300.classList.remove("cls-9");
 
+    // continueArray[i] = continueArray[4];
+
 }
 
 
 
 
-
-
-
 // -----------------------------------------
-
-
 
 
 
@@ -234,6 +242,8 @@ function openChapter2_1() {
     chapterCircleText2.style.fill = '#3F51B5';
 
     blauw[0].style.fill = '#5667c3';
+
+    // continueArray[i] = continueArray[5];
 }
 
 tandwielen2.addEventListener("click", chapter2_1_2);
@@ -469,4 +479,20 @@ function chapter1Complete() {
     lockClosed.style.display = 'none';
     nextChapter.innerHTML = '<p>Next Chapter</p>';
     nextChapterLink.href = '/mainMenu.html';
+}
+
+
+let continueArray = [openChapter1_1, chapter1_1_2, chapter1_1_3, chapter1_1_4, openChapter2_1, chapter2_1_2, chapter2_1_3, chapter2_1_4, openChapter3_1, chapter3_1_2, chapter3_1_3, chapter3_1_4, chapter1Complete];
+
+
+
+nextChapterLink.addEventListener("click", nextArrayItem);
+let i = 0;
+
+function nextArrayItem() {
+
+    continueArray[i];
+    nextChapterLink.addEventListener("click", continueArray[i]);
+    i++;
+    console.log(i);
 }
