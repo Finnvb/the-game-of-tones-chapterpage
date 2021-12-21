@@ -5,8 +5,6 @@ Dit is een website voor The Game of Tones Web App waar de nadruk ligt op navigat
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
