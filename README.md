@@ -15,6 +15,8 @@ Dit is een website voor The Game of Tones Web App waar de nadruk ligt op navigat
 Dit project is gemaakt op basis van het ontwerp van de prototype van de opdrachtgever.
 De focus van dit project is om te laten zien hoe de navigatie eruit komt te zien. Hoe navigeer je door de verschillende onderdelen van een hoofdstuk.
 <!-- Voeg een mooie poster visual toe 📸 -->
+![Game of Tones visual](https://user-images.githubusercontent.com/26089533/146912809-3ee17f95-e887-405f-8701-0e6bc6a60c5d.png)
+
 <!-- Voeg een link toe naar Github Pages 🌐-->
 [Live Versie](https://gameoftones.student.fdnd.nl/)
 
