@@ -22,13 +22,23 @@ De focus van dit project is om te laten zien hoe de navigatie eruit komt te zien
 
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-## Installatie
+**Tools gebruikt:**
 
-## Gebruik
+- Visual Studio Code
+-  Figma
+-  Pen en papier
+
+**Gemaakt met:**
+
+- HTML5
+- CSS3
+- JavaScript
 
 ## Bronnen
+
+- [svgrepo](https://www.svgrepo.com/)
+- [Javascript tutorials](https://www.youtube.com/c/TheNetNinja/featured)
 
 ## Licentie
 
