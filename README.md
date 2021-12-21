@@ -1,7 +1,5 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# The Game of Tones
+Dit is een website voor The Game of Tones Web App waar de nadruk ligt op navigation flow.
 
 ## Inhoudsopgave
 
@@ -14,6 +12,8 @@
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+Dit project is gemaakt op basis van het ontwerp van de prototype van de opdrachtgever.
+De focus van dit project is om te laten zien hoe de navigatie eruit komt te zien. Hoe navigeer je door de verschillende onderdelen van een hoofdstuk.
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
