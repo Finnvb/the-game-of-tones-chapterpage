@@ -16,7 +16,8 @@ Dit project is gemaakt op basis van het ontwerp van de prototype van de opdracht
 De focus van dit project is om te laten zien hoe de navigatie eruit komt te zien. Hoe navigeer je door de verschillende onderdelen van een hoofdstuk.
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
-[Live Versie](gameoftones.student.fdnd.nl/)
+[Live Versie](https://gameoftones.student.fdnd.nl/)
+
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
